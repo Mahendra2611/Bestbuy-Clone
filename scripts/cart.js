@@ -1,5 +1,26 @@
 var cartItem = JSON.parse(localStorage.getItem("cartData"));
 
+
+
+document.querySelector("#checkout-button").addEventListener("click",myFun68);
+
+function myFun68(){
+
+   setTimeout(() => {
+      alert("ordered confirmed")
+    }, "1000");
+
+
+    setTimeout(() => {
+      alert("ordered packed")
+    }, "5000")
+
+    setTimeout(() => {
+      alert("ordered shipped")
+    }, "9000")
+}
+
+
 var sumObj=[];
  cartItem.map(function(elem){
     var imgbox = document.querySelector("#imagetoCart");
