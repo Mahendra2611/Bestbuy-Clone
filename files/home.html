@@ -1,0 +1,613 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
+    <script src="/scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="nav1">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png;maxHeight=80;maxWidth=136">
+            <div id="menu">
+            <i class="fa-solid fa-bars"></i>
+            <a href="#">Menu</a>
+            </div>
+            <form>
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div id="location">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <a href="">Aiea</a>
+            </div>
+            <div id="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="cart.html">Cart</a>
+                </div>
+        </div>
+        <div class="hr"></div>
+        <div id="nav2">
+            <div id="shop">
+                <p><a href="shop.html">Top Deals</a></p>
+                <p><a href="deal_of_the_day.html">Deals of the day</a></p>
+                <p><a href="totaltech-membership.html">Totaltech membership</a></p>
+                <p><a href="credit-card.html">Credit card</a></p>
+                <p><a href="gift-card.html">Gift card</a></p>
+            </div>
+            <div id="order">
+                <p><a href="account.html">Account</a></p>
+                <p style="color: white;">Recently Viewed</a></p>
+                <p id="order" style="color: white;">Order Status</p>
+                <p id="saved" style="color: white;">Saved Items</p>
+            </div>
+        </div>
+    </header>
+    <div id="saved-items">
+        <div id="saved-content">
+        <div class="top-content">
+        <i class="fa-solid fa-bookmark"></i>
+        <h1>Saved Items</h1>
+        <div class="vline"></div>
+        <a href="">See all your saved items > </a>
+        <i id="close2" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="hr"></div>
+        <div class="bottom-content">
+            <div>
+            <h1>Looks like you don't have anything saved...</h1>
+            <p>When you see something you like, hit "save" and we'll keep track of it here.</p>
+            <p><a href="login.html">Sign in </a> or <a href="account.html">create an account</a> to see your stuff on all your devices.</p>
+            </div>
+        <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/global/qa2/sh_zs_bs_v2.png;maxHeight=992;maxWidth=260" alt="">
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="order-status">
+        <div id="order-content">
+        <div class="top-content">
+            <i class="fa-solid fa-box-open"></i>
+        <h1>Order Status</h1>
+        <div class="vline"></div>
+        <i id="close1" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="hr"></div>
+        <div class="bottom-content">
+            <div>
+            <h1>Hi there! Looking
+                for a current order?</h1>
+            <p>You'll need to sign in or have your order number handy.</p>
+            <button id="buttonorder" onclick="clickfunction">Continue</button>
+            </div>
+        <div>
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/en_US/images/abn/2015/global/qa2/sh_zs_bs_v2.png;maxHeight=992;maxWidth=260" alt="">
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- write from here  -->
+    
+        <div class="mainbox">
+            <div class="mainbox1">
+                <div class="mainbox1a">
+                    <div class="mainbox1aText">
+                        <p> Ends 4/17/22. Online and in store. Minimum savings is 5%. Exclusions apply.</p>
+                        <button class="mainbox_btn">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainbox2">
+                <div class="mainbox2a">
+                    <div class="mainbox2b">
+                    <h1>Today’s popular picks</h1>
+                    <div class="mainbox2ba">
+                        <!-- <div class="mainbox2ba1">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=250;maxWidth=250" alt="">
+                            <a href="https://www.bestbuy.com/site/samsung-55-class-7-series-led-4k-uhd-smart-tizen-tv/6401735.p?skuId=6401735">Samsung - 55" Class 7 Series LED 4K UHD Smart Tizen TV</a>
+                        </div>
+                        <div class="mainbox2ba1">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6429/6429440_sd.jpg;maxHeight=250;maxWidth=250" alt="">
+                            <a href="https://www.bestbuy.com/site/samsung-55-class-7-series-led-4k-uhd-smart-tizen-tv/6401735.p?skuId=6401735">NVIDIA GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Graphics Car</a>
+                        </div>
+                        </div>
+                        <div class="mainbox2ba1">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4900/4900942_sd.jpg;maxHeight=250;maxWidth=250" alt="">
+                            <a href="https://www.bestbuy.com/site/samsung-55-class-7-series-led-4k-uhd-smart-tizen-tv/6401735.p?skuId=6401735">Apple - AirPods Pro (with Magsafe Charging Case) - White</a>
+                        </div>
+                        <div class="mainbox2ba1">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6493/6493164_so.jpg;maxHeight=250;maxWidth=250" alt="">
+                            <a href="https://www.bestbuy.com/site/samsung-55-class-7-series-led-4k-uhd-smart-tizen-tv/6401735.p?skuId=6401735">Spider-Man: No Way Home [SteelBook] [4K Ultra HD Blu-ray/Blu-ray]</a>
+                        </div> -->
+                    </div>
+                </div>
+                
+                </div>
+                <div class="mainbox2c">
+                    <div class="mainbox2c1">
+                        <div class="mainbox2c1a">
+                            <div class="mainbox2c1atext"><h2>Deal</h2></div> <span><h2>of the Day</h2></span>
+                             <a href="https://www.bestbuy.com/site/misc/deal-of-the-day/pcmcat248000050016.c?id=pcmcat248000050016">See bonus deals </a>
+                        </div>
+                    </div>
+                    <div class="mainbox2c2">
+                        <div class="mainbox2c2a">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425303_sd.jpg;maxHeight=300;maxWidth=300" alt="">
+                        </div>
+                        <div class="mainbox2c2b">
+                            <a href="https://www.bestbuy.com/site/wd-easystore-14tb-external-usb-3-0-hard-drive-black/6425303.p?skuId=6425303">WD - easystore 14TB External USB 3.0 Hard Drive - Black</a>
+                            <h4>$199.99</h4>
+                            <p>$362.99</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+    
+            <div class="mostview_box">
+                <div class="mostview_boxa">
+                    <h2>Most-viewed items</h2>
+                </div>
+                <div class="mostview_boxb">
+                    <div class="mostview_boxb1">
+                        <div class="mostview_boxb1img">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487447_sd.jpg;maxHeight=400;maxWidth=400" alt="">
+                        </div>
+                        <div class="mostview_boxb1a">
+                            <a href="">Apple - iPhone 13 Pro Max 5G 128GB - Alpine Green (T-Mobile)</a>
+                        </div>
+                    </div>
+                    <div class="mostview_boxb1"></div>
+                    <div class="mostview_boxb1"></div>
+                    <div class="mostview_boxb1"></div>
+                    <div class="mostview_boxb1"></div>
+                </div>
+                <div class="mostview_boxc">
+                    <div class="mostview_boxc1">
+                        <div class="mostview_boxc1img">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-confident-210831-c34d2a74-8b79-41cd-8161-b9987666f7d6.png;maxHeight=72;maxWidth=72" alt="">
+                        </div>
+                        <div class="mostview_boxc1text"> 
+                            <h2>Shop safely and confidently.</h2>
+                            <a href="">See our safety procedures</a>
+                        </div>
+                    </div>
+                    <div class="mostview_boxc1">
+                        <div class="mostview_boxc1img">
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-65963-expert-210831-70c599ed-fc34-47d8-9b93-85f899d93c8f.png;maxHeight=72;maxWidth=72" alt="">
+                        </div>
+                        <div class="mostview_boxc1text"> 
+                            <h2>Get help shopping from home.</h2>
+                            <a href="">Shop with an Expert</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mbox3">
+                <div class="mbox3img">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/subghp-MMT-530171-tv-d5b7887e-39f8-42d3-93cb-781647b27e38.jpg" alt="">
+                </div>
+                <div class="mbox3img">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/subghp-MMT-530171-macbook-d97b853e-fb25-4f29-bdc7-527d44597b24.jpg" alt="">
+                </div>
+            </div>
+    
+            <div class="mbox4">
+                <div class="mboxa4">
+                    <div class="mboxa4a">
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-37875-app-curbside-vpe_der-149659.png;maxHeight=144;maxWidth=144" alt="">
+                        </div>
+                        <div>
+                            <h2>Ready in one hour</h2>
+                            <p>with Store or Curbside Pickup.</p>
+                        </div>
+                    </div>
+                    <div class="mboxa4a">
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt="">
+                        </div>
+                        <div>
+                            <h2>Free next-day delivery</h2>
+                            <p>on thousands of items.</p>
+                        </div>
+                    </div>
+                    <div class="mboxa4a">
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/gl-app-vpe-freeshippin_der1-206852.png;maxHeight=144;maxWidth=144" alt="">
+                        </div>
+                        <div>
+                            <h2>Same-day delivery.</h2>
+                            <p>Order by 3 p.m., get it by 8 p.m.</p>
+                            <p id="p">Order by 2 p.m. Sunday.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mboxb4">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/gl62892-tt-skinny-bg-lg-4ed9a87a-ca73-4e7a-8610-0f2159f2239b.jpg" alt="">
+                    
+                </div>
+                
+            </div>
+    
+    
+    
+            <div class="mbox3">
+                <div class="pro_box">
+                    <h2>Easter gifting</h2>
+                    <div class="pro_box1">
+                        <div>
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72315-flex-easter-220328-0153f8c1-8358-4a07-80df-7d67a51bd0ac.jpg;maxHeight=432;maxWidth=432" alt="">
+                        <a href="">Easter basket ideas</a>
+                    </div>
+                    <div>
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72315-flex-hot-wheels-220328-897af3f3-ef41-427d-94b3-82c2d1aff94b.jpg;maxHeight=432;maxWidth=432" alt="">
+                        <a href="">Toy and remote control cars</a>
+                    </div>
+                    <div>
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72315-flex-sets-220328-769b4b8c-5634-4b14-91d2-5de9b4a755a0.jpg;maxHeight=432;maxWidth=432" alt="">
+                        <a href="">Building sets</a>
+                    </div>
+                    <div>
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72315-flex-doll-220328-a0776e0a-ca38-4974-92a3-d6aeade45506.jpg;maxHeight=432;maxWidth=432" alt="">
+                        <a href="">Dolls</a>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="pro_box">
+                    <h2>Our sustainable ecosystem</h2>
+                    <div class="pro_box1">
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72316-flex-repair-220328-02aebddb-32fc-4f14-b98b-311c74a29ced.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Repair</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72316-flex-recycle-220328-5643195c-1173-4d11-8646-ca4f76a964df.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Recycling</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72316-flex-tradein-220328-869de7ef-fe3d-46e5-a092-3536d17dcfbb.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Trade-in</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72316-flex-haulaway-220328-c6cb166e-5f1f-4f83-a515-ac4f31aa71f1.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Haul-away</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_box">
+                    <h2>Sustainable products</h2>
+                    <div class="pro_box1">
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72317-flex-energystar-220328-90089094-3c9a-4d01-a18c-a1d995716729.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">ENERGY STAR</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72317-flex-ebike-220328-0a034dd5-d94a-4a25-8fe5-e33b53c0a239.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Electrical transportation</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72317-flex-charger-220328-864d9b15-173c-4c2c-bfd5-b3f63b462bd2.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Electric car chargers</a>
+                        </div>
+                        <div>
+                            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-72317-flex-thermostat-220328-5584c953-1f21-46b2-a5a6-94ffa14921e7.jpg;maxHeight=432;maxWidth=432" alt="">
+                            <a href="">Smart thermostarts</a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+    
+    
+    
+    
+    
+            <h2>Our featured offers</h2>
+       <hr>
+       <div class="offers_box">
+           <div class="offer_box_a">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/SOL-93899-iphone13-pro-pol_der-f73f557f-62fd-4937-9f7d-1aba33288b71.jpg;maxHeight=504;maxWidth=740" alt="">
+            <h2><a href="">iPhone 13 Pro<br>
+             Save up to $1,000</a></h2>
+            <p>with qualified activation and trade-in of iPhone 11 Pro or<br> newer.</p>
+            <p id="offer_box_a_p">Terms and conditions apply.</p>
+           </div><hr>
+           <div class="offer_box_a">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol_MMT-526756_der-a6e216bd-5492-4cda-bcec-dd139498986b.jpg;maxHeight=504;maxWidth=740" alt="">
+            <h2><a href="">Sustainability activated in select<br> major appliances.</a></h2>
+            <p>Eco-friendly solutions to upgrade your home while doing<br> good for the environment.</p>
+           </div><hr>
+           <div class="offer_box_a">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/sol-92035-spring-audio-pol_der-52c2a980-5d2b-41e3-9188-7403fe1479ae.jpg;maxHeight=504;maxWidth=740" alt="">
+            <h2><a href="">Ultimate sound and savings.</a></h2>
+            <p>Find great deals on all the audio gear you need during the<br> Spring Audio Event. Ends April 3.</p>
+           </div>
+       </div>
+       <hr>
+       <div class="offers_box">
+        <div class="offer_box_a">
+         <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol_MMT-526934_der-244b95f7-0a7d-471a-a454-ad0717fc8f25.jpg;maxHeight=504;maxWidth=740" alt="">
+         <h2><a href="">Save on select video games.<br>
+          Save up to $1,000</a></h2>
+         <p>Assortment includes Grid Legends, Hades, FIFA 22 and many<br> more.</p>
+        </div><hr>
+        <div class="offer_box_a">
+         <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol_6479683-MMT-509914-0207-4503ca46-3964-4730-973c-8a2291e5e7b0.jpg;maxHeight=504;maxWidth=740" alt="">
+         <h2><a href="">Save up to $400 on select Windows<br> laptops.</a></h2>
+         <p id="offer_box_a_p">Minimum savings is $30.</p>
+        </div><hr>
+        <div class="offer_box_a">
+         <img src="https://pisces.bbystatic.com/image2/BestBuy_US/dam/pol-yardbird-sol91618-a422b3be-8a4c-4c9d-980c-8fc459f5b624.jpg;maxHeight=504;maxWidth=740" alt="">
+         <h2><a href="">Yardbird. Outdoor furniture with <br>a purpose.</a></h2>
+         <p>Exceptionally comfortable, stylish and sustainable. Built to last <br> with the highest quality materials.</p>
+         <p id="offer_box_a_p">Available in Southern California only. For customers<br> outside of this market, please visit yardbird.com.</p>
+        </div>
+    </div>
+    
+    
+    
+    <h2>Trending deals</h2>
+    <hr>
+        <div id="box">
+            <div id="smallbox">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401735_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+                    <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                    <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+    
+            </div>
+            <div id="smallbox">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6479/6479176_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+                <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+               <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                <h3>$399</h3>
+                <p style="text-decoration: line-through;">$479.99</p>
+            </div>
+            <div id="smallbox">
+                    <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6449/6449513_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+                    <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+            </div>
+            <div id="smallbox">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468486ld.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+                <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+               <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                <h3>$399</h3>
+                <p style="text-decoration: line-through;">$479.99</p>
+            </div>
+            <div id="smallbox">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6456/6456144_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+                <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+               <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                <h3>$399</h3>
+                <p style="text-decoration: line-through;">$479.99</p>
+            </div>
+        </div>
+    <h2>Featured products</h2>
+    <hr>
+    <div id="box">
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461324_sd.jpg;maxHeight=150;maxWidth=225" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+           <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+            <h3>$399</h3>
+            <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373513cv11d.jpg;maxHeight=150;maxWidth=225" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+           <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+            <h3>$399</h3>
+            <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6298/6298637_sd.jpg;maxHeight=150;maxWidth=225" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6378/6378783_rd.jpg;maxHeight=150;maxWidth=225" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6390/6390372_sd.jpg;maxHeight=150;maxWidth=225" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+    </div>
+    <h2>Popular products</h2>
+    <hr>
+    <div id="box">
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4901/4901809_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418601_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6487/6487447_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461724_sd.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+        <div id="smallbox">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461461cv11d.jpg;maxHeight=272;maxWidth=400" alt=""><br>
+            <a href="">Samsung - 55" Class 7 Series<br>LED 4K UHD Smart Tizen TV  </a>
+                   <p>⭐⭐⭐⭐⭐ <span> <a>(222)</a></span></p> 
+                    <h3>$399</h3>
+                    <p style="text-decoration: line-through;">$479.99</p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div class="box-1">
+            <div>
+                <p><i class="fa-regular fa-circle-question"></i></p><br>
+                <a href="">Visit our support Center</a>
+
+            </div>
+            <div>
+
+                <p><i class="fa-solid fa-box"></i></p><br>
+                <a href="">Check Your Order Status</a>
+            </div>
+            <div>
+
+                <p><i class="fa-solid fa-truck-moving"></i></p><br>
+                <a href="">Shipping, Delivery & Store Pickup</a>
+
+            </div>
+            <div>
+
+                <p><i class="fa-solid fa-right-left"></i></p><br>
+                <a href="">Returns & Exchanges</a>
+
+            </div>
+        </div>
+        <div style="height: 1px;width: 95%; margin: auto; background-color:  gray; margin-top: 20px;"></div>
+        <div class="box-2">
+            <div>
+                <h3> Order & Purchases</h3>
+                <a href="">Check Order Status</a> <br>
+                <a href="">Shipping, Delivery & Pickup</a> <br>
+                <a href="">Returns & Exchanges</a> <br>
+                <a href="">Price Match Guarantee</a> <br>
+                <a href="">Product Recalls</a> <br>
+                <a href="">Trade-In Program</a> <br>
+                <a href="">Gift Cards</a> <br>
+                <h3>Payment Options</h3>
+                <a href="">My Best Buy® Credit Card</a> <br>
+                <a href="">Pay Your Bill at Citibank</a><br>
+                <a href="">Lease to Own</a>
+            </div>
+            <div>
+                <h3> Support & Services</h3>
+                <a href="">Visit our Support Center</a> <br>
+                <a href="">Shop with an Expert</a> <br>
+                <a href="">Schedule a Service</a> <br>
+                <a href="">Manage an Appointment</a> <br>
+                <a href="">Protection & Support Plans</a> <br>
+                <a href="">Haul Away & Recycling</a> <br>
+                <a href="">Contact Us</a> <br>
+                <h3>Rewards & Membership</h3>
+                <a href="">Best Buy Totaltech</a> <br>
+                <a href="">My Best Buy</a><br>
+                <a href="">View Points & Certificates</a><br>
+                <a href="">Member Offers</a>
+            </div>
+            <div>
+                <h3> Partnerships</h3>
+                <a href="">Affiliate Program</a> <br>
+                <a href="">Advertise with Us</a> <br>
+                <a href="">Developers</a> <br>
+                <a href="">Best Buy Health</a> <br>
+                <a href="">Best Buy Education</a> <br>
+                <a href="">Best Buy Business</a> <br>
+
+                <h3>About Best Buy</h3>
+                <a href="">Corporate Information</a> <br>
+                <a href="">Careers</a><br>
+                <a href="">Corporate Responsibility & Sustainability</a><br>
+                <a href="">Discover & Learn</a>
+            </div>
+            <div id="contact">
+                <a href="">Sign in or Create Account</a>
+                <div style="height: 1px ; background-color: gray;margin-top: -20px;" ></div>
+                <div class="small-box-1">
+                    <h3>Get the latest deals and more.</h3>
+                    <input type="email" placeholder="Enter email" style="width: 90%;"><br>
+                    <button style="width: 90%;">sign up</button>
+                </div>
+                <div class="small-box-2">
+                    <h3>Best buy app</h3>
+
+                </div>
+                <div class="small-box-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube-square"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <div>
+                <div>
+                    <p>How was your experience?<a href="">Give feedback about our website</a></p>
+                </div>
+                <div><a href="">Mobile Site</a> <a href="">Best Buy Canada</a></div>
+            </div>
+            <div>
+                <a href="">Accessibility</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Privacy</a>
+                <a href="">Intrest-Basted-Ads</a>
+                <a href="">California Privacy Rights</a>
+                <a href="">Do Not Sell My Personal Information</a>
+                <a href="">California Supply Chain Transparency Act</a>
+            </div>
+            <div>
+                <p>In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights
+                    reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy
+                    and its affiliated companies.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
